@@ -1,9 +1,9 @@
 language: java
 before_install:
- - cd Rational
- - sudo apt-get install ant-optional
+- cd Rational
+- sudo apt-get install ant-optional
 jdk:
- - openjdk10
+- openjdk10
 script:
- - ant test
+- ant test
 
